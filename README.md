@@ -4,7 +4,6 @@ A curated knowledge base of **common caveats, methodological nuances, and interp
 
 This repository collects **analysis pitfalls, tool-specific behaviors, and statistical interpretation issues** that are frequently encountered across a wide range of scRNA-seq workflows and software packages.
 
-
 ---
 
 ## 🎯 Purpose
@@ -64,10 +63,14 @@ scRNAseq-analysis-caveats/
 ├── visualization/
 │   └── README.md
 │
+├── versions/               # Version-specific behavior records
+│   ├── README.md
+│   └── tool_version_notes.md
+│
 └── README.md
 ```
 
-The structure may evolve as new analysis topics and tools are added.
+The structure may evolve as new analysis topics, tools, and software versions are added.
 
 ---
 
