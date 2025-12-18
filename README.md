@@ -4,6 +4,7 @@ A curated knowledge base of **common caveats, methodological nuances, and interp
 
 This repository collects **analysis pitfalls, tool-specific behaviors, and statistical interpretation issues** that are frequently encountered across a wide range of scRNA-seq workflows and software packages.
 
+
 ---
 
 ## 🎯 Purpose
@@ -90,6 +91,51 @@ Basic familiarity with scRNA-seq analysis concepts and tools (e.g., Seurat or Sc
 * ❌ A replacement for official software documentation
 
 Instead, this repository complements existing resources by focusing on **interpretation, assumptions, and analytical caveats**.
+
+---
+
+## 🧾 Versioning and Reproducibility Notes
+
+### Why Version Information Matters
+
+Many scRNA-seq analysis tools evolve rapidly. Changes in **default parameters, internal data structures, scaling strategies, or statistical implementations** can lead to different results even when the same code is executed.
+
+To reduce ambiguity and improve reproducibility, notes in this repository explicitly consider **software version–specific behaviors** whenever relevant.
+
+---
+
+### Version Annotation Policy
+
+When applicable, each note should clearly state:
+
+* The **package name** (e.g., Seurat, CellChat, Scanpy)
+* The **exact version(s)** under which the behavior was observed
+* Whether the issue is:
+
+  * version-specific
+  * persistent across versions
+  * known to have changed in newer releases
+
+If behavior differs across versions, this will be explicitly highlighted.
+
+---
+
+### Limitations
+
+* Not all historical versions can be exhaustively tested
+* Observations are based on practical usage and documented behavior
+* Users are encouraged to verify critical behaviors under their own software environment
+
+---
+
+### Recommended Citation Practice
+
+When referencing notes from this repository in manuscripts or reports, it is recommended to also specify:
+
+* The software version used in the original analysis
+* The commit or release version of this repository, if applicable
+
+This helps ensure clarity when analytical behavior changes over time.
 
 ---
 
