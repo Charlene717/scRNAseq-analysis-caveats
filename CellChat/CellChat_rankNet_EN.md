@@ -132,3 +132,14 @@ and visualized separately (e.g., using `ggplot2`).
 ## 8. One-sentence Summary
 
 > In CellChat, relative information flow is always computed from raw information flow; scaled values are intended only for visualization and ranking, and should not be mixed with relative metrics or statistical testing in interpretation.
+
+---
+
+## Package versions at the time of writing
+
+- R: 4.4.1
+- OS: Windows 10 x64 (build 19045)
+- CellChat: 2.1.2
+- Seurat: 5.3.0
+- ggplot2: 3.5.1
+- Time zone: Asia/Taipei

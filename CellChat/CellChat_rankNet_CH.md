@@ -132,3 +132,15 @@ scaled_rel_A = scaled_A / (scaled_A + scaled_B)
 
 > 在 CellChat 中，relative information flow 永遠基於 raw information 計算；
 > scaled values 僅用於視覺化與排序，不能直接與 relative 或統計檢定混用解讀。
+
+
+---
+
+## Package versions at the time of writing
+
+- R: 4.4.1
+- OS: Windows 10 x64 (build 19045)
+- CellChat: 2.1.2
+- Seurat: 5.3.0
+- ggplot2: 3.5.1
+- Time zone: Asia/Taipei
