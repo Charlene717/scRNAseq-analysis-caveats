@@ -106,3 +106,13 @@ p_heat_count <- netVisual_heatmap(
   若在論文或補充資料中使用此類分析，建議明確說明：
 
 > Heatmaps generated using `netVisual_heatmap()` represent global cell–cell communication differences and are not restricted to individual signaling pathways, regardless of the `signaling` argument.
+
+
+## Package versions at the time of writing
+
+- R: 4.4.1
+- OS: Windows 10 x64 (build 19045)
+- CellChat: 2.1.2
+- Seurat: 5.3.0
+- ggplot2: 3.5.1
+- Time zone: Asia/Taipei
