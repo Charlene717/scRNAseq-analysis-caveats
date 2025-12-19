@@ -107,7 +107,9 @@ p_heat_count <- netVisual_heatmap(
 
 > Heatmaps generated using `netVisual_heatmap()` represent global cell–cell communication differences and are not restricted to individual signaling pathways, regardless of the `signaling` argument.
 
+
 ---
+
 ## Package versions at the time of writing
 
 - R: 4.4.1
